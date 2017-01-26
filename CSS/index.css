@@ -104,6 +104,24 @@ body{
     border-bottom: 1px solid #347aa7;
 }
 
+.in-dev{
+    background-color: #7b7b7b;
+    color: #FFF;
+    box-shadow: 0px 1px 1px 1px #e6e6e6;
+    border-bottom: 10px solid #656565;
+}
+
+.icone-web {
+    width: 2em;
+    height: 2em;
+    float: right;
+    padding-top: 0.5em;
+}
+
+.in-dev h2{
+    border-bottom: 1px solid #656565;
+}
+
 .sobre-mim{
     background-color: #FFF;
     border-bottom: 0;
@@ -114,7 +132,6 @@ body{
 
 .foto-eu{
     padding: .3em;
-    padding-right: 1em;
     width: 200px;
     height: 200px;
     border-radius: 5%;
