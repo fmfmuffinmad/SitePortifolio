@@ -1,0 +1,166 @@
+body{
+    background-color: #eaeaea;
+    color: #404040;
+}
+
+.titulo-principal{
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    font-size: 3em;
+    color: #FFF;
+    padding: .1em;
+    padding-left: .5em;
+    text-shadow: 5px 5px #35523d;
+}
+
+.subtitulo-principal{
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    font-size: 2em;
+}
+
+.cabecalho-home{
+    /*background-image: url("../Imagens/home-fundo.jpg");*/
+    background-color: #49935d;
+    background-repeat: no-repeat;
+}
+
+.secao-inicio{
+    /*border: .5em  solid #eaeaea;*/
+    margin: .5em;
+    box-shadow: 0 1px 1px #c9c9c9;
+    border-radius: 4px;
+    clear: both;
+}
+
+.secao-inicio h2{
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    font-size: 2.5em;
+    text-shadow: 2px 2px #e0e0e0;
+}
+
+.secao-inicio ul{
+    border-top: 2px solid #a7a7a7;
+    padding-top: .3em;
+}
+
+.trabalhos{
+    background-color: #FFF;
+    border-bottom: 0;
+    padding: 1em;
+    padding-top: 0;
+}
+
+.projeto{
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    border-radius: 1%;
+    display: block;
+    width: 11em;
+    height: 8em;
+    padding: 1em;
+    padding-top: 0.5em;
+}
+
+.projeto h2{
+    font-size: 2em;
+    text-shadow: none;
+}
+
+.projeto p{
+    padding-top: 1em;
+}
+
+.android{
+    background-color: #18aa23;
+    color: #FFF;
+    box-shadow: 0px 1px 1px 1px #e6e6e6;
+    border-bottom: 10px solid #208617;
+}
+
+.icone-android {
+    width: 2em;
+    height: 2em;
+    float: right;
+    padding-top: 0.5em;
+}
+
+.android h2{
+    border-bottom: 1px solid #208617;
+}
+
+.web{
+    background-color: #41c3e2;
+    color: #FFF;
+    box-shadow: 0px 1px 1px 1px #e6e6e6;
+    border-bottom: 10px solid #347aa7;
+}
+
+.icone-web {
+    width: 2em;
+    height: 2em;
+    float: right;
+    padding-top: 0.5em;
+}
+
+.web h2{
+    border-bottom: 1px solid #347aa7;
+}
+
+.sobre-mim{
+    background-color: #FFF;
+    border-bottom: 0;
+    padding: 1em;
+    padding-top: 0;
+    text-align: justify;
+}
+
+.foto-eu{
+    padding: .3em;
+    padding-right: 1em;
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    
+}
+
+.fale-comigo{
+    background-color: #FFF;
+    border-bottom: 0;
+    padding: 1em;
+    padding-top: 0;
+}
+
+footer{
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #eaeaea;
+    align-content: center;
+    display: 
+}
+
+.rodape{
+    border-top: 1px solid #bcbcbc;
+    padding: 0.5em;
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+.icones a{
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -99999px;
+}
+.icones li{
+
+}
+
+.github {
+    background-image: url(../Imagens/github.png);
+}
+
+.twitter {
+     background-image: url(../Imagens/twitter.png);
+}
+
+.linkedin {
+    background-image: url(../Imagens/linkedin.png);
+}

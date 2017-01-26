@@ -1,0 +1,18 @@
+.foto-eu{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%
+}
+.foto-home{
+    height: 25em;
+}
+.cabecalho-home{
+    overflow: hidden;
+}
+
+body {
+    font-family: "Verdana", "Crimson Text", "Times New Roman", serif;
+    background-color: #FFF;
+    font-size: 100%;
+    line-height: 1.5;
+}
