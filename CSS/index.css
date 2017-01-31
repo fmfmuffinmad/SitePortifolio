@@ -87,6 +87,11 @@ body{
     box-shadow: 2px 4px 1px 1px #dddddd;
 }
 
+.projeto:active{
+    transform: translateY(5px);
+    box-shadow: 0px 1px 1px 1px #e6e6e6;
+}
+
 .projeto h2{
     font-size: 2em;
     text-shadow: none;
