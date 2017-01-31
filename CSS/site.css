@@ -1,11 +1,3 @@
-.foto-eu{
-    width: 200px;
-    height: 200px;
-    border-radius: 10%
-}
-.foto-home{
-    height: 25em;
-}
 .cabecalho-home{
     overflow: hidden;
 }
@@ -15,4 +7,38 @@ body {
     background-color: #FFF;
     font-size: 100%;
     line-height: 1.5;
+}
+
+footer{
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #eaeaea;
+    align-content: center;
+    display: 
+}
+
+.rodape{
+    border-top: 1px solid #bcbcbc;
+    padding: 0.5em;
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+.icones a{
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -99999px;
+}
+
+.github {
+    background-image: url(../Imagens/github.png);
+}
+
+.twitter {
+     background-image: url(../Imagens/twitter.png);
+}
+
+.linkedin {
+    background-image: url(../Imagens/linkedin.png);
 }

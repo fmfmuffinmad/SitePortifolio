@@ -31,15 +31,12 @@ body{
     clear: both;
 }
 
-.secao-inicio h2{
+.secao-inicio>h2{
     font-family: "Open Sans Condensed", "Arial", sans-serif;
     font-size: 2.5em;
     text-shadow: 2px 2px #e0e0e0;
-}
-
-.secao-inicio ul{
-    border-top: 2px solid #a7a7a7;
-    padding-top: .3em;
+    border-bottom: 2px solid #a7a7a7;
+    margin-bottom: 0.5%;
 }
 
 .trabalhos{
@@ -47,16 +44,47 @@ body{
     border-bottom: 0;
     padding: 1em;
     padding-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-trabalhos{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.trabalhos a{
+    text-decoration: none
+}
+
+/*.link-projeto{
+    width: 11em;
+    height: 8em;
+}*/
+
+.container-trabalhos a{
+    display: block;
+    margin-left: 1%;
+    margin-top: 1%;
 }
 
 .projeto{
     font-family: "Open Sans Condensed", "Arial", sans-serif;
     border-radius: 1%;
-    display: block;
     width: 11em;
     height: 8em;
     padding: 1em;
     padding-top: 0.5em;
+    transition: 0.2s;
+    box-shadow: 0px 1px 1px 1px #e6e6e6;
+}
+
+.projeto:hover,
+.projeto:focus{
+    transform: translateY(-5px);
+    box-shadow: 2px 4px 1px 1px #dddddd;
 }
 
 .projeto h2{
@@ -68,58 +96,49 @@ body{
     padding-top: 1em;
 }
 
+.projeto-header{
+    display: flex;
+}
 .android{
     background-color: #18aa23;
     color: #FFF;
-    box-shadow: 0px 1px 1px 1px #e6e6e6;
     border-bottom: 10px solid #208617;
 }
 
 .icone-android {
     width: 2em;
     height: 2em;
-    float: right;
     padding-top: 0.5em;
 }
 
-.android h2{
-    border-bottom: 1px solid #208617;
+.android p{
+    border-top: 1px solid #208617;
 }
 
 .web{
     background-color: #41c3e2;
     color: #FFF;
-    box-shadow: 0px 1px 1px 1px #e6e6e6;
     border-bottom: 10px solid #347aa7;
 }
 
 .icone-web {
     width: 2em;
     height: 2em;
-    float: right;
     padding-top: 0.5em;
 }
 
-.web h2{
-    border-bottom: 1px solid #347aa7;
+.web p{
+    border-top: 1px solid #347aa7;
 }
 
 .in-dev{
     background-color: #7b7b7b;
     color: #FFF;
-    box-shadow: 0px 1px 1px 1px #e6e6e6;
     border-bottom: 10px solid #656565;
 }
 
-.icone-web {
-    width: 2em;
-    height: 2em;
-    float: right;
-    padding-top: 0.5em;
-}
-
-.in-dev h2{
-    border-bottom: 1px solid #656565;
+.in-dev p{
+    border-top: 1px solid #656565;
 }
 
 .sobre-mim{
@@ -128,6 +147,15 @@ body{
     padding: 1em;
     padding-top: 0;
     text-align: justify;
+}
+
+.conteudo-sobre-mim{
+    display: flex;
+}
+
+sobre-mim ul{
+    display: flex;
+    flex-flow: row;
 }
 
 .foto-eu{
@@ -165,9 +193,11 @@ footer{
     height: 40px;
     display: block;
     text-indent: -99999px;
+    background-color: #999;
 }
-.icones li{
 
+.icones{
+    display: flex;
 }
 
 .github {
