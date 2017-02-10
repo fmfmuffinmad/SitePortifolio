@@ -156,11 +156,14 @@ body{
 
 .conteudo-sobre-mim{
     display: flex;
+    flex-flow: row;
+    align-items: stretch;
 }
 
 sobre-mim ul{
     display: flex;
-    flex-flow: row;
+    flex-flow: row nowrap;
+    
 }
 
 .foto-eu{
@@ -168,7 +171,6 @@ sobre-mim ul{
     width: 200px;
     height: 200px;
     border-radius: 5%;
-    
 }
 
 .fale-comigo{
