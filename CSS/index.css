@@ -1,51 +1,15 @@
-body{
-    background-color: #eaeaea;
-    color: #404040;
-}
 
-.titulo-principal{
-    font-family: "Open Sans Condensed", "Arial", sans-serif;
-    font-size: 3em;
-    color: #FFF;
-    padding: .1em;
-    padding-left: .5em;
-    text-shadow: 5px 5px #35523d;
-}
+/* --------- Specific sections --------- */
 
-.subtitulo-principal{
-    font-family: "Open Sans Condensed", "Arial", sans-serif;
-    font-size: 2em;
-}
-
-.cabecalho-home{
-    /*background-image: url("../Imagens/home-fundo.jpg");*/
-    background-color: #49935d;
-    background-repeat: no-repeat;
-}
-
-.secao-inicio{
-    /*border: .5em  solid #eaeaea;*/
-    margin: .5em;
-    box-shadow: 0 1px 1px #c9c9c9;
-    border-radius: 4px;
-    clear: both;
-}
-
-.secao-inicio>h2{
-    font-family: "Open Sans Condensed", "Arial", sans-serif;
-    font-size: 2.5em;
-    text-shadow: 2px 2px #e0e0e0;
-    border-bottom: 2px solid #a7a7a7;
-    margin-bottom: 0.5%;
-}
+/* Trabalhos */
 
 .trabalhos{
-    background-color: #FFF;
-    border-bottom: 0;
-    padding: 1em;
-    padding-top: 0;
     display: flex;
     flex-direction: column;
+}
+
+.trabalhos a{
+    text-decoration: none
 }
 
 .container-trabalhos{
@@ -55,102 +19,15 @@ body{
     flex-grow: 1;
 }
 
-.trabalhos a{
-    text-decoration: none
-}
-
-/*.link-projeto{
-    width: 11em;
-    height: 8em;
-}*/
-
 .container-trabalhos a{
     display: block;
     margin-left: 1%;
     margin-top: 1%;
 }
 
-.projeto{
-    font-family: "Open Sans Condensed", "Arial", sans-serif;
-    border-radius: 1%;
-    width: 11em;
-    height: 8em;
-    padding: 1em;
-    padding-top: 0.5em;
-    transition: 0.2s;
-    box-shadow: 0px 1px 1px 1px #e6e6e6;
-}
-
-.projeto:hover,
-.projeto:focus{
-    transform: translateY(-5px);
-    box-shadow: 2px 4px 1px 1px #dddddd;
-}
-
-.projeto:active{
-    transform: translateY(5px);
-    box-shadow: 0px 1px 1px 1px #e6e6e6;
-}
-
-.projeto h2{
-    font-size: 2em;
-    text-shadow: none;
-}
-
-.projeto p{
-    padding-top: 1em;
-}
-
-.projeto-header{
-    display: flex;
-}
-.android{
-    background-color: #18aa23;
-    color: #FFF;
-    border-bottom: 10px solid #208617;
-}
-
-.icone-android {
-    width: 2em;
-    height: 2em;
-    padding-top: 0.5em;
-}
-
-.android p{
-    border-top: 1px solid #208617;
-}
-
-.web{
-    background-color: #41c3e2;
-    color: #FFF;
-    border-bottom: 10px solid #347aa7;
-}
-
-.icone-web {
-    width: 2em;
-    height: 2em;
-    padding-top: 0.5em;
-}
-
-.web p{
-    border-top: 1px solid #347aa7;
-}
-
-.in-dev{
-    background-color: #7b7b7b;
-    color: #FFF;
-    border-bottom: 10px solid #656565;
-}
-
-.in-dev p{
-    border-top: 1px solid #656565;
-}
+/* Sobre mim */
 
 .sobre-mim{
-    background-color: #FFF;
-    border-bottom: 0;
-    padding: 1em;
-    padding-top: 0;
     text-align: justify;
 }
 
@@ -167,54 +44,109 @@ sobre-mim ul{
 }
 
 .foto-eu{
-    padding: .3em;
+    margin: .5em;
     width: 200px;
     height: 200px;
+    min-width: 200px;
+    max-width: 200px;
+    flex-basis: 200px;
     border-radius: 5%;
 }
 
+/* Fale Comigo */
+
 .fale-comigo{
-    background-color: #FFF;
-    border-bottom: 0;
-    padding: 1em;
-    padding-top: 0;
+
 }
 
-footer{
-    padding: 0.5em;
-    padding-left: 1em;
-    padding-right: 1em;
-    background-color: #eaeaea;
-    align-content: center;
-    display: 
-}
+/* --- Portifolio Projects Custon Links ---- */
 
-.rodape{
-    border-top: 1px solid #bcbcbc;
-    padding: 0.5em;
+/* Links Structure */
+
+.projeto{
     font-family: "Open Sans Condensed", "Arial", sans-serif;
+    border-radius: 1%;
+    width: 11em;
+    height: 8em;
+    padding: 1em;
+    padding-top: 0.5em;
+    transition: 0.2s;
+    box-shadow: 0px 1px 1px 1px #e6e6e6;
 }
 
-.icones a{
-    width: 40px;
-    height: 40px;
-    display: block;
-    text-indent: -99999px;
-    background-color: #999;
-}
-
-.icones{
+.projeto-header{
     display: flex;
 }
 
-.github {
-    background-image: url(../Imagens/github.png);
+.android{
+    background-color: #18aa23;
+    color: #FFF;
+    border-bottom: 10px solid #208617;
 }
 
-.twitter {
-     background-image: url(../Imagens/twitter.png);
+.web{
+    background-color: #41c3e2;
+    color: #FFF;
+    border-bottom: 10px solid #347aa7;
 }
 
-.linkedin {
-    background-image: url(../Imagens/linkedin.png);
+.in-dev{
+    background-color: #7b7b7b;
+    color: #FFF;
+    border-bottom: 10px solid #656565;
 }
+
+/* Portifolio Projects States and Animations */
+
+.projeto:hover,
+.projeto:focus{
+    transform: translateY(-5px);
+    box-shadow: 2px 4px 1px 1px #dddddd;
+}
+
+.projeto:active{
+    transform: translateY(5px);
+    box-shadow: 0px 1px 1px 1px #e6e6e6;
+}
+
+/* Links icons */ 
+
+.icone-web {
+    width: 2em;
+    height: 2em;
+    padding-top: 0.5em;
+}
+
+.icone-android {
+    width: 2em;
+    height: 2em;
+    padding-top: 0.5em;
+}
+
+
+/* Links text elements */ 
+
+.projeto h2{
+    font-size: 2em;
+    text-shadow: none;
+}
+
+.projeto p{
+    padding-top: 1em;
+}
+
+.android p{
+    border-top: 1px solid #208617;
+}
+
+.web p{
+    border-top: 1px solid #347aa7;
+}
+
+.in-dev p{
+    border-top: 1px solid #656565;
+}
+
+
+
+
