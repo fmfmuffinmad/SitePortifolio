@@ -28,6 +28,12 @@
 		<div class="navbar navbar-fixed-top">
 			<div class="container">
 				
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
 				<a class="navbar-brand" href="/"><img src="images/logo.png" alt="Your Logo"></a>
 				
 				<div class="nav-collapse collapse navbar-responsive-collapse">
@@ -36,8 +42,28 @@
 							<a href="#">Home</a>
 						</li>
 
-						<li>
-							<a href="#">Services</a>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Web Design</a>
+								</li>
+								<li>
+									<a href="#">Web Development</a>
+								</li>
+								<li>
+									<a href="#">SEO</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li class="dropdown-header">More Services</li>
+								<li>
+									<a href="#">Content Criation</a>
+								</li>
+								<li>
+									<a href="#">SM Design</a>
+								</li>
+							</ul>
 						</li>
 					</ul><!--end nav-->
 
@@ -48,10 +74,25 @@
 					</form><!--end navbar-form-->
 					
 					<ul class="nav navbar-nav pull-right">
-						<li>
-							<a href="#">
-							<span class="glyphicon glyphicon-user"></span> My Accounnt
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<span class="glyphicon glyphicon-user"></span> My Accounnt<strong class="caret"></strong>
 							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Settings</a>
+								</li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span> Update Profile</a>
+								</li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> Billing</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Sign Out</a>
+								</li>
+							</ul>
 						</li>
 					</ul><!--end nav pull-right-->
 
