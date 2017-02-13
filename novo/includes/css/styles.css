@@ -47,6 +47,13 @@ Notes:	 Hand coded for Udemy.com
    -------------------------------------- */
 .carousel {
     position: relative;
+    height: 500px;
+    margin-bottom: 60px;
+}
+
+.carousel .item {
+    height: 500px;
+    background-color: #777;
 }
 
 
