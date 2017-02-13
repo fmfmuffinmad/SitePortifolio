@@ -45,17 +45,20 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Carousel
    -------------------------------------- */
-.carousel {
+#mainCarousel {
     position: relative;
     height: 500px;
     margin-bottom: 60px;
 }
 
-.carousel .item {
+#mainCarousel .item {
     height: 500px;
     background-color: #777;
 }
 
+#slide-portifolio {
+    background: url('../../imagens/banner-portifolio-medium.jpeg') top center no-repeat;
+}
 
 /* --------------------------------------
    Global Styles
@@ -74,10 +77,14 @@ Notes:	 Hand coded for Udemy.com
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-	
+	#slide-portifolio {
+        background: url('../../imagens/banner-portifolio-small.jpeg') top center no-repeat;
+    }
 }
 
 /* Large desktop */
 @media (min-width: 1200px) {
-	
+	#slide-portifolio {
+        background: url('../../imagens/banner-portifolio-large.jpeg') top center no-repeat;
+    }
 }
