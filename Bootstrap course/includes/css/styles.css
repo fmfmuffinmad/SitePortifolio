@@ -14,7 +14,13 @@ Notes:	 Hand coded for Udemy.com
    Layout
    -------------------------------------- */
 
+#features {
+    text-align: center;
+}
 
+#features img {
+    margin: 0 0 20px;
+}
 
 /* --------------------------------------
    Typography
@@ -99,7 +105,7 @@ body {
 }
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	#myCarousel .item {
         height: 310px;
     }

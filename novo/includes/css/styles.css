@@ -97,7 +97,15 @@ Notes:	 Hand coded for Udemy.com
    Global Styles
    -------------------------------------- */
 
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
 
+.callout .col-sm-6 {
+    margin-bottom: 20px;
+    text-align: center
+}
 
 /* --------------------------------------
    Media Queries
