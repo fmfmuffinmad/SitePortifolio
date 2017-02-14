@@ -42,6 +42,24 @@ Notes:	 Hand coded for Udemy.com
     margin-top: 20px;
 }
 
+.inverse-dropdown{
+  background-color: #222;
+  border-color: #080808;
+}
+
+.inverse-dropdown>li>a{
+    color: #999;
+}
+
+.inverse-dropdown>li>a:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+.inverse-dropdown>.divider{
+  background-color: #000;
+}
+
 /* --------------------------------------
    Carousel
    -------------------------------------- */
@@ -60,6 +78,21 @@ Notes:	 Hand coded for Udemy.com
     background: url('../../imagens/banner-portifolio-medium.jpeg') top center no-repeat;
 }
 
+#mainCarousel .carousel-link {
+    height: 500;
+    width: 100%;
+}
+
+#slide-pinut {
+    background: url('../../imagens/banner-pinut-medium.jpeg') top center no-repeat;
+}
+
+#slide-drafter {
+    background: url('../../imagens/banner-drafter-medium.jpeg') top center no-repeat;
+}
+#slide-uhul {
+    background: url('../../imagens/banner-uhul-medium.jpeg') top center no-repeat;
+}
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
@@ -80,11 +113,29 @@ Notes:	 Hand coded for Udemy.com
 	#slide-portifolio {
         background: url('../../imagens/banner-portifolio-small.jpeg') top center no-repeat;
     }
+    #slide-pinut {
+        background: url('../../imagens/banner-pinut-small.jpeg') top center no-repeat;
+    }
+    #slide-drafter {
+        background: url('../../imagens/banner-drafter-small.jpeg') top center no-repeat;
+    }
+    #slide-uhul {
+        background: url('../../imagens/banner-uhul-small.jpeg') top center no-repeat;
+    }
 }
 
 /* Large desktop */
 @media (min-width: 1200px) {
 	#slide-portifolio {
         background: url('../../imagens/banner-portifolio-large.jpeg') top center no-repeat;
+    }
+    #slide-pinut {
+        background: url('../../imagens/banner-pinut-large.jpeg') top center no-repeat;
+    }
+    #slide-drafter {
+        background: url('../../imagens/banner-drafter-large.jpeg') top center no-repeat;
+    }
+    #slide-uhul {
+        background: url('../../imagens/banner-uhul-large.jpeg') top center no-repeat;
     }
 }
