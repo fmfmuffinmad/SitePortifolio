@@ -97,15 +97,31 @@ Notes:	 Hand coded for Udemy.com
    Global Styles
    -------------------------------------- */
 
-.jumbotron {
-    text-align: center;
-    background-color: transparent;
-}
-
 .callout .col-sm-6 {
     margin-bottom: 20px;
-    text-align: center
+    text-align: center;
 }
+
+footer {
+    background: url('../../imagens/footer-bg.jpeg')top left repeat;
+    color: #FFF;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer a {
+    color: #AAA;
+    
+}
+
+footer a:hover,
+footer a:active{
+    color: #FFF;
+}
+
 
 /* --------------------------------------
    Media Queries
